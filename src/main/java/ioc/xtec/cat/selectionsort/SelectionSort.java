@@ -2,8 +2,20 @@ package ioc.xtec.cat.selectionsort;
 
 public class SelectionSort {
 
+    /**
+ * Classe que implementa l'algorisme de Selection Sort per ordenar arrays.
+ * 
+ * Autor: Xavier Grima Salinas
+ * Versió: 2.0
+ */
+    
    public void sort(int[] arr) {
-        int n = arr.length;
+        // Imprimir nom, cognoms i missatge personal
+        System.out.println("Nom i cognoms: Xavier Grima Salinas");
+        System.out.println("Missatge: He aprés molt fent el mòdul 8 de DAW encara que hagi estat dur!!!");
+
+       
+       int n = arr.length;
 
         for (int i = 0; i < n - 1; i++) {
             int minIndex = i;
